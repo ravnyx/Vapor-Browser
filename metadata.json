@@ -1,0 +1,6 @@
+{
+  "name": "IncognitoFlow",
+  "description": "A privacy-focused web browser within a browser that loads real sites with zero cookies or history retained.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
