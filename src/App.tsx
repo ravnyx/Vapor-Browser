@@ -343,7 +343,7 @@ export default function App() {
           let proxySrc = '';
           try {
              const u = new URL(currentUrl);
-             proxySrc = `/proxy/${u.protocol.replace(':','')}/${u.host}${u.pathname}${u.search}`;
+             proxySrc = `/api/proxy/${u.protocol.replace(':','')}/${u.host}${u.pathname}${u.search}`;
           } catch(e) {
              proxySrc = '';
           }
